@@ -21,6 +21,7 @@ body {
   }
 
 .container {
+    margin-top: ;
     display: flex;
     width: 100%;
     height: 100vh;
@@ -35,14 +36,13 @@ body {
 .compartilhe {
     background: var(--bg);
     text-align: center;
-    padding-top: 5%;
 } 
 
 .card {
     margin: 5% 25%;
     background: var(--bg-card);
     width: 50%;
-    height: 90vh;
+    height: 40em;
     border-radius: 50px;
     padding: 5% 2%;
     border: 20px solid grey;  
