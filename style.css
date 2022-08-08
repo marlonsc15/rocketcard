@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background: var(--bg);
+}
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+  }
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.divcard {
+    color: var(--text);
+    width: 60%;
+    position: relative;
+}
+
+.compartilhe {
+    background: var(--bg);
+    text-align: center;
+    padding-top: 5%;
+} 
+
+.card {
+    margin: 5% 25%;
+    background: var(--bg-card);
+    width: 50%;
+    height: 90vh;
+    border-radius: 50px;
+    padding: 5% 2%;
+    border: 20px solid grey;  
+}
+
+.titulo  {
+    display: flex;
+    align-items: center;
+}
+
+.image-border {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 5em;
+    width: 2.8rem;
+    height: 2.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.image-border img {
+    position: absolute;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    top: 20%;
+    left: 15%;
+}
+
+.titulo a {
+    font-size: 1.5em;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.titulo a:hover {
+    color: rgba(170, 169, 169, 0.993);
+}
+
+.user-image {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--img-profile);
+}
+
+.card ul {
+    position: absolute;
+    list-style: none;
+    background: rgba(29, 29, 29, 0.437);
+    width: 25%;
+    border-radius: 10%;
+    padding: 2%; 
+    top: 62%;
+    left: 30%;
+    box-shadow: 1px 1px rgba(19, 19, 19, 0.596);
+}
+
+.card ul li {
+    padding-top: 2%;
+}
+
+.card ul li img {
+    margin-right: 5%;
+}
+
+.rodape {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+.rodape img {
+    width: 2rem;
+    height: 2em;
+}
+
+.divbutton {
+    color: var(--text);
+    width: 40%;
+    text-align: center;
+    margin: 24% 0;
+}
+
+.divbutton button {
+    background: var(--border-button);
+    font-size: 1.5em;
+    color: var(--buttons);
+    padding: 4% 6%;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    
+}
+
+.divbutton h1 {
+    margin-bottom: 30px;
+}
+
+.divbutton button:hover {
+    cursor: pointer;
+    transform: translate(-2%,-2%);
+    background: var(--img-profile);
+}
