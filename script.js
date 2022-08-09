@@ -12,4 +12,5 @@ function customizar() {
 
         document.getElementById("background").style.background = "rgba("+r+","+g+","+b+",0.300)";
 
+        document.getElementById("image-border").style.border = "1px solid rgb("+r+","+g+","+b+")"
 }
