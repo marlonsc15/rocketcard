@@ -18,15 +18,30 @@
                     <div class="image-border" id="image-border">
                         <img src="assets/logo.svg" alt="logo">
                     </div>
-                    <a id="nome" href="https://github.com/marlonsc15">marlonsc15</a>
+                    <a id="nome" href="https://github.com/marlonsc15" target="_blank">marlonsc15</a>
                 </div>
                 <img id="img" class="user-image" src="marlon.jpg" alt="user-image">
                 <ul id="background">
-                    <li><img src="assets/followers.svg" alt="Seguidores">1 Seguidores</li>
-                    <li><img src="assets/following.svg" alt="Seguindo">2 Seguindo</li>
-                    <li><img src="assets/repository.svg" alt="Repositorios">40 Repositorios</li>
-                    <li><img src="assets/company.svg" alt="Compania">@HudLab</li>
-                    <li><img src="assets/location.svg" alt="Local">RJ</li>
+                    <section>
+                        <img src="assets/followers.svg" alt="Seguidores">
+                        <li id="followers"></li>
+                    </section>
+                    <section>
+                        <img src="assets/following.svg" alt="Seguindo">
+                        <li id="following"></li>
+                    </section>
+                    <section>
+                        <img src="assets/repository.svg" alt="Repositorios">
+                        <li id="repos">0 Repositorios</li>
+                    </section>
+                    <section>
+                        <img src="assets/company.svg" alt="Compania">
+                        <li id="company"></li>
+                    </section>
+                    <section>
+                        <img src="assets/location.svg" alt="Local">
+                        <li id="local"></li>
+                    </section>
                 </ul>
                 <div class="rodape">
                     <img src="assets/logo.svg" alt="logo">
@@ -39,6 +54,7 @@
             <button onclick="customizar()">Gerar Background</button>
         </div>
     </main>
+     
     <script src="script.js"></script>
 </body>
 </html>

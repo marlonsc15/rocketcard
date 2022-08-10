@@ -21,7 +21,7 @@ body {
   }
 
 .container {
-    margin-top: ;
+
     display: flex;
     width: 100%;
     height: 100vh;
@@ -95,7 +95,7 @@ body {
     position: absolute;
     list-style: none;
     background: rgba(29, 29, 29, 0.437);
-    width: 25%;
+    width: 28%;
     border-radius: 10%;
     padding: 2%; 
     top: 62%;
@@ -103,11 +103,16 @@ body {
     box-shadow: 1px 1px rgba(19, 19, 19, 0.596);
 }
 
+.card ul section {
+    display: flex;
+
+}
+
 .card ul li {
     padding-top: 2%;
 }
 
-.card ul li img {
+.card ul section img {
     margin-right: 5%;
 }
 
